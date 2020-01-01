@@ -1,7 +1,7 @@
 # Blockchain based Distributed Voting System
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-</br>
+
 
 Website: [https://nisiddharth.github.io/Blockchain-Voting-System/](https://nisiddharth.github.io/Blockchain-Voting-System/)
 
@@ -47,3 +47,10 @@ A Blockchain based secure voting system with delegation support.
 
 ## Library Used
   * [Web3j](https://github.com/web3j/web3j) -  Java and Android library for integration with Ethereum clients
+
+## Tools Used
+   * [Solidity compiler](https://github.com/ethereum/solidity/releases/download/v0.5.12/solidity-windows.zip)
+   * [Web3j command line client](https://github.com/web3j/web3j/releases/tag/v3.6.0)
+   * [Ganache](https://www.trufflesuite.com/ganache)
+   * [NetBeans 8.2 IDE](https://netbeans.org/)
+   * [Remix IDE](http://remix.ethereum.org/)
