@@ -13,25 +13,25 @@ A Blockchain based secure voting system with delegation support.
 
 ## Screenshots
 #### Chairman's Panel
-![Screenshot](./Screenshots/ChairmanPanel.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ChairmanPanel.png?raw=true)
 
 #### Election Manager
-![Screenshot](./Screenshots/ManageElection.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ManageElection.png?raw=true)
 
 #### Authorize Voter
-![Screenshot](./Screenshots/AuthorizeVoter.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/AuthorizeVoter.png?raw=true)
 
 #### Voter's Panel
-![Screenshot](./Screenshots/Vote.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/Vote.png?raw=true)
 
 #### Give Vote
-![Screenshot](./Screenshots/VoteHelper.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/VoteHelper.png?raw=true)
 
 #### Delegate Vote
-![Screenshot](./Screenshots/Delegator.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/Delegator.png?raw=true)
 
 #### View Results on election ending
-![Screenshot](./Screenshots/ViewResult.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ViewResult.png?raw=true)
 
 ## To use
    * Make sure JDK 1.8 is installed on your system and added to System `PATH`.
