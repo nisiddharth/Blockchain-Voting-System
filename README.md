@@ -17,7 +17,7 @@ A Blockchain based secure voting system with delegation support.
 ![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ManageElection.png?raw=true)
 
 #### Authorize Voter
-![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/AuthorizeVoter.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/AuthorizeVoter.jpg?raw=true)
 
 #### Voter's Panel
 ![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/Vote.png?raw=true)
