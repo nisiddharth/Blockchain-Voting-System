@@ -39,7 +39,7 @@ A Blockchain based secure voting system with delegation support.
      ```
      git clone https://github.com/nisiddharth/Blockchain-Voting-System.git
      ```
-   * Open project folder in `NetBeans IDE 8.2`, configure library paths according to your system. All required libraries are present in `./required_jars` directory.
+   * Open project folder in `NetBeans IDE 8.2 or above`, configure library paths according to your system. All required libraries are present in `./required_jars` directory.
    * Build project and run `voting.system.ChairmanPanel` to start Election process, and `voting.voter.Vote` to Vote.
    * At end of Election, press 'End Election and view Result' button to view Results.
 
@@ -50,5 +50,5 @@ A Blockchain based secure voting system with delegation support.
    * [Solidity compiler](https://github.com/ethereum/solidity/releases/download/v0.5.12/solidity-windows.zip)
    * [Web3j command line client](https://github.com/web3j/web3j/releases/tag/v3.6.0)
    * [Ganache](https://www.trufflesuite.com/ganache)
-   * [NetBeans 8.2 IDE](https://netbeans.org/)
+   * [NetBeans 12.2 IDE](https://netbeans.apache.org/)
    * [Remix IDE](http://remix.ethereum.org/)
