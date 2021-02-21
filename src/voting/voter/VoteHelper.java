@@ -56,8 +56,8 @@ public class VoteHelper extends javax.swing.JFrame {
 		int numberProposals = ballot.numberProposals().send().intValueExact();
 		while (count < numberProposals) {
 			try {
-				String candidate = new String(ballot.proposals(BigInteger.valueOf(count++)).send().getValue1());
-				candidates.add(candidate);
+                            String candidate = (new String(ballot.proposals(BigInteger.valueOf(count++)).send().getValue1())).trim();
+                            candidates.add(candidate);
 				comboProposals.addItem(candidate);
 			} catch (Exception ex) {
 				Logger.getLogger(Vote.class.getName()).log(Level.SEVERE, null, ex);
@@ -86,12 +86,12 @@ public class VoteHelper extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Select Proposal");
 
-        comboProposals.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        comboProposals.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
-        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +99,7 @@ public class VoteHelper extends javax.swing.JFrame {
             }
         });
 
-        btnVote.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnVote.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnVote.setText("Vote");
         btnVote.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +107,7 @@ public class VoteHelper extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("Select carefully... You have only one chance.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -124,7 +124,7 @@ public class VoteHelper extends javax.swing.JFrame {
                         .addComponent(btnCancel))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addGap(0, 236, Short.MAX_VALUE))
+                        .addGap(0, 269, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(18, 18, 18)

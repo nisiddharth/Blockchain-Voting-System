@@ -64,12 +64,12 @@ public class Delegator extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Wallet address of person to delegate to");
 
-        txtTo.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtTo.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
-        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,7 +77,7 @@ public class Delegator extends javax.swing.JFrame {
             }
         });
 
-        btnDelegate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnDelegate.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnDelegate.setText("Delegate");
         btnDelegate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,7 +94,7 @@ public class Delegator extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
-                        .addGap(0, 389, Short.MAX_VALUE))
+                        .addGap(0, 437, Short.MAX_VALUE))
                     .addComponent(txtTo)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)

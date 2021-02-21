@@ -3,8 +3,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-Website: [https://nisiddharth.github.io/Blockchain-Voting-System/](https://nisiddharth.github.io/Blockchain-Voting-System/)
-
 A Blockchain based secure voting system with delegation support.
   
 ## Special Features
@@ -25,23 +23,23 @@ A Blockchain based secure voting system with delegation support.
 ![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/Vote.png?raw=true)
 
 #### Give Vote
-![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/VoteHelper.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/VoteHelper.jpg?raw=true)
 
 #### Delegate Vote
 ![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/Delegator.png?raw=true)
 
 #### View Results on election ending
-![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ViewResult.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/nisiddharth/Blockchain-Voting-System/master/Screenshots/ViewResult.jpg?raw=true)
 
 ## To use
    * Make sure JDK 1.8 is installed on your system and added to System `PATH`.
-   * Install [Ganache](https://www.trufflesuite.com/ganache) on your system (It is a personal Ethereum blockchain).
+   * Install [Ganache](https://www.trufflesuite.com/ganache) on your system (It provides a one-click personal Ethereum blockchain).
    * Run Ganache on Port number `8545`, leave other settings at their defaut.
    * Clone this git repository using
      ```
      git clone https://github.com/nisiddharth/Blockchain-Voting-System.git
      ```
-   * Open project folder in `NetBeans IDE 8.2`, configure library paths according to your system. All required libraries are present in `dist/lib` folder.
+   * Open project folder in `NetBeans IDE 8.2`, configure library paths according to your system. All required libraries are present in `./required_jars` directory.
    * Build project and run `voting.system.ChairmanPanel` to start Election process, and `voting.voter.Vote` to Vote.
    * At end of Election, press 'End Election and view Result' button to view Results.
 

@@ -74,7 +74,7 @@ public class ManageElection extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        btnAddVoter.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnAddVoter.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnAddVoter.setText("Authorize Voter");
         btnAddVoter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,7 +82,7 @@ public class ManageElection extends javax.swing.JFrame {
             }
         });
 
-        btnDone.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnDone.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnDone.setText("End election and view Results");
         btnDone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,13 +90,13 @@ public class ManageElection extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Contract Address");
 
         txtKey.setEditable(false);
-        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("Please keep this windows open till end of election.");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -111,7 +111,7 @@ public class ManageElection extends javax.swing.JFrame {
                         .addComponent(jLabel1)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 403, Short.MAX_VALUE)
+                        .addGap(0, 438, Short.MAX_VALUE)
                         .addComponent(btnDone))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel2)

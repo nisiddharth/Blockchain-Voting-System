@@ -72,19 +72,19 @@ public class Vote extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Private Key");
 
-        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        txtKey.setText("94ad390c83b1eacf998b0d95ae4c456c09c7fa5c7c5ae604d2e97b24b65d6f8f");
+        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        txtKey.setText("7094d1ede2b29922bdbcdfde87817382963f42354686218fa76bbf54e181d4be");
 
-        txtLabel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtLabel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtLabel.setText("Contract Address");
 
-        txtAddress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        txtAddress.setText("0x4efe6ea48d3ea50f43579f47084f478cdf2b92f8");
+        txtAddress.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        txtAddress.setText("0x986ac42aeae2015623262f6bd0efa66bacbdd4e3");
 
-        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,7 +92,7 @@ public class Vote extends javax.swing.JFrame {
             }
         });
 
-        btnVote.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnVote.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnVote.setText("Vote");
         btnVote.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,19 +100,19 @@ public class Vote extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel2.setText("Gas price");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel3.setText("Gas limit");
 
-        txtPrice.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtPrice.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtPrice.setText("20000000000");
 
-        txtLimit.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtLimit.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtLimit.setText("6721975");
 
-        btnDelegate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnDelegate.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnDelegate.setText("Delegate your Vote");
         btnDelegate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,7 +142,7 @@ public class Vote extends javax.swing.JFrame {
                             .addComponent(jLabel3))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtKey, javax.swing.GroupLayout.DEFAULT_SIZE, 604, Short.MAX_VALUE)
+                            .addComponent(txtKey, javax.swing.GroupLayout.DEFAULT_SIZE, 624, Short.MAX_VALUE)
                             .addComponent(txtAddress)
                             .addComponent(txtPrice)
                             .addComponent(txtLimit))))

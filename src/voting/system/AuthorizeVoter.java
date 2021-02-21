@@ -64,12 +64,12 @@ public class AuthorizeVoter extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Voter's wallet address");
 
-        txtAddress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtAddress.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
-        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,7 +77,7 @@ public class AuthorizeVoter extends javax.swing.JFrame {
             }
         });
 
-        btnAdd.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnAdd.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnAdd.setText("Authorize");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,7 +101,7 @@ public class AuthorizeVoter extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addComponent(txtAddress)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(427, Short.MAX_VALUE)
+                        .addContainerGap(443, Short.MAX_VALUE)
                         .addComponent(btnAdd)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnCancel))
@@ -122,7 +122,7 @@ public class AuthorizeVoter extends javax.swing.JFrame {
                     .addComponent(btnCancel)
                     .addComponent(btnAdd))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblStatus, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                .addComponent(lblStatus, javax.swing.GroupLayout.DEFAULT_SIZE, 34, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

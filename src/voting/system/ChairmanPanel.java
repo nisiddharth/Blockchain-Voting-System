@@ -19,6 +19,7 @@ package voting.system;
 import java.awt.Toolkit;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
@@ -79,22 +80,22 @@ public class ChairmanPanel extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel2.setText("Provide all candidate names (separated by ,)");
 
         txtCandidates.setColumns(20);
-        txtCandidates.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtCandidates.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtCandidates.setRows(5);
         txtCandidates.setText("Nishchal Siddharth,Keanu Reeves,Taylor Swift,Will Smith");
         jScrollPane1.setViewportView(txtCandidates);
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel3.setText("Private Key");
 
-        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        txtKey.setText("a2707a7bde9e1e60a6116a051958761314bf2746445609d387e68256aeef26ab");
+        txtKey.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        txtKey.setText("7f0bec81ff571916e7296dbc26ba0b76f6b17ec1695e352370d8fd64f5d074cf");
 
-        btnDeploy.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnDeploy.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnDeploy.setText("Deploy");
         btnDeploy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,7 +103,7 @@ public class ChairmanPanel extends javax.swing.JFrame {
             }
         });
 
-        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        btnCancel.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,16 +111,16 @@ public class ChairmanPanel extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("Gas Price");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel4.setText("Gas Limit");
 
-        txtPrice.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtPrice.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtPrice.setText("20000000000");
 
-        txtLimit.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtLimit.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         txtLimit.setText("6721975");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -146,7 +147,7 @@ public class ChairmanPanel extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtLimit)
-                            .addComponent(txtKey, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 629, Short.MAX_VALUE)
+                            .addComponent(txtKey, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 641, Short.MAX_VALUE)
                             .addComponent(txtPrice))))
                 .addContainerGap())
         );
@@ -217,6 +218,7 @@ public class ChairmanPanel extends javax.swing.JFrame {
 	public byte[] stringToBytes32(String string) {
 		byte[] byteValue = string.getBytes();
 		byte[] byteValueLen32 = new byte[32];
+                Arrays.fill(byteValueLen32, (byte) 32); // fill with spaces
 		System.arraycopy(byteValue, 0, byteValueLen32, 0, byteValue.length);
 		return byteValueLen32;
 	}

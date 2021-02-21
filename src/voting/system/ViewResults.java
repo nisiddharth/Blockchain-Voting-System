@@ -36,9 +36,9 @@ public class ViewResults extends javax.swing.JFrame {
 	public ViewResults(String name, HashMap<String, Integer> map) {
 		initComponents();
 		setIcon();
-		lblWinner.setText(name + " has won the Election.");
+            lblWinner.setText(name.trim() + " has won the Election.");
 		this.map = map;
-		String result = "Name\t\t\tVotes\n";
+            String result = "Name\t\t\t\tVotes\n";
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
 			String key = entry.getKey();
 			Integer value = entry.getValue();
@@ -71,9 +71,9 @@ public class ViewResults extends javax.swing.JFrame {
         setLocationByPlatform(true);
         setResizable(false);
 
-        lblWinner.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblWinner.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jButton1.setText("OK");
         jButton1.setToolTipText("");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -82,11 +82,12 @@ public class ViewResults extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel2.setText("Election has ended");
 
         txtResult.setEditable(false);
         txtResult.setColumns(20);
+        txtResult.setFont(new java.awt.Font("JetBrains Mono", 0, 13)); // NOI18N
         txtResult.setLineWrap(true);
         txtResult.setRows(5);
         jScrollPane1.setViewportView(txtResult);
@@ -102,7 +103,7 @@ public class ViewResults extends javax.swing.JFrame {
                     .addComponent(jScrollPane1)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 449, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 464, Short.MAX_VALUE)
                         .addComponent(jButton1)))
                 .addContainerGap())
         );
@@ -116,7 +117,7 @@ public class ViewResults extends javax.swing.JFrame {
                     .addComponent(jButton1)
                     .addComponent(jLabel2))
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 452, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 455, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
